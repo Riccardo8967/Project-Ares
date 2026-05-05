@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e63030"/>
+      <stop offset="100%" stop-color="#ff6b35"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a0a0a"/>
+      <stop offset="100%" stop-color="#07070f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="108" fill="url(#glow)"/>
+
+  <!-- Subtle red glow circle -->
+  <circle cx="256" cy="220" r="180" fill="#e63030" opacity="0.07"/>
+
+  <!-- Lightning bolt (Ares symbol) -->
+  <polygon
+    points="300,72 168,280 262,280 210,440 344,218 250,218"
+    fill="url(#accent)"
+  />
+
+  <!-- "PA" monogram below bolt — small, subtle -->
+  <text
+    x="256" y="488"
+    text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-weight="900"
+    font-size="48"
+    letter-spacing="8"
+    fill="#e63030"
+    opacity="0.55"
+  >ARES</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e63030"/>
+      <stop offset="100%" stop-color="#ff6b35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full bleed background (maskable icons need safe zone — content inside ~80% = 102px inset) -->
+  <rect width="512" height="512" fill="#07070f"/>
+
+  <!-- Lightning bolt — shifted slightly to center in safe zone -->
+  <polygon
+    points="295,110 175,295 260,295 212,400 335,235 250,235"
+    fill="url(#accent)"
+  />
+</svg>
